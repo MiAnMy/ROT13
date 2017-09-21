@@ -35,9 +35,10 @@
             // 
             // To_ROT13
             // 
-            this.To_ROT13.Location = new System.Drawing.Point(66, 38);
+            this.To_ROT13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.To_ROT13.Location = new System.Drawing.Point(0, 20);
             this.To_ROT13.Name = "To_ROT13";
-            this.To_ROT13.Size = new System.Drawing.Size(86, 23);
+            this.To_ROT13.Size = new System.Drawing.Size(284, 23);
             this.To_ROT13.TabIndex = 0;
             this.To_ROT13.Text = "ROT13";
             this.To_ROT13.UseVisualStyleBackColor = true;
@@ -46,7 +47,7 @@
             // Result
             // 
             this.Result.AutoSize = true;
-            this.Result.Location = new System.Drawing.Point(104, 78);
+            this.Result.Location = new System.Drawing.Point(-3, 46);
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(0, 13);
             this.Result.TabIndex = 2;
@@ -54,9 +55,10 @@
             // 
             // Value
             // 
-            this.Value.Location = new System.Drawing.Point(1, 12);
+            this.Value.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Value.Location = new System.Drawing.Point(0, 0);
             this.Value.Name = "Value";
-            this.Value.Size = new System.Drawing.Size(209, 20);
+            this.Value.Size = new System.Drawing.Size(284, 20);
             this.Value.TabIndex = 3;
             // 
             // ROT13
@@ -65,10 +67,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(284, 113);
+            this.ClientSize = new System.Drawing.Size(284, 72);
+            this.Controls.Add(this.To_ROT13);
             this.Controls.Add(this.Value);
             this.Controls.Add(this.Result);
-            this.Controls.Add(this.To_ROT13);
             this.Name = "ROT13";
             this.Text = "ROT13";
             this.ResumeLayout(false);
